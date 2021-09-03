@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:background="@drawable/back"
+    tools:context=".SecondActivity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Time Management Tool"
+        android:textSize="25dp"
+        android:layout_marginTop="300dp"
+        android:textColor="@color/black"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="86dp"
+        tools:layout_editor_absoluteY="331dp" />
+
+    <Button
+        android:id="@+id/beg"
+        android:layout_width="172dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="390dp"
+        android:backgroundTint="#03DAC6"
+        android:text="Begin" />
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="172dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="440dp"
+        android:backgroundTint="#03DAC6"
+        android:text="Back" />
+
+    <ImageView
+        android:id="@+id/ImageView"
+        android:layout_width="220dp"
+        android:layout_height="220dp"
+        android:layout_marginBottom="300dp"
+        android:layout_marginLeft="20dp"
+        app:srcCompat="@drawable/time" />
+
+</RelativeLayout>
